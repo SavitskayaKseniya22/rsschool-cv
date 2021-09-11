@@ -49,3 +49,5 @@ function isPangram(string){
  4. JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
 ## Experience:
 For self-study, I made several landing pages,wrote some scripts
+## Languages:
+English A2+.  I try to fill in the gaps.  I hope to go to language practice in the near future.
