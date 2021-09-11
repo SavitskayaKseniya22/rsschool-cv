@@ -16,3 +16,20 @@ My name is Savitskaya Ksenia. I am now 27 years old. I started self-study a few 
 + JavaScript (Junior)
 + Version control: Git (remote service GitHub)
 + Figma
+
+## Code example:
+```
+function isPangram(string){
+  let arr=string.split(' ').join('').toLowerCase().split('').sort()
+  
+  arr=arr.filter(function(elem){
+      return /[a-zA-Z]/.test(elem)
+  })
+  
+  let set = new Set(arr);
+  if(set.size==26){
+      return true;
+  }else return false;
+} 
+```
+
