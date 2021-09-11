@@ -40,32 +40,32 @@
         </section>
         <section>
             <h2>Skills:</h2>
-
-            HTML
-            CSS (SASS)
-            JavaScript (Junior)
-            Version control: Git (remote service GitHub)
-            Figma
+            <ul>
+                <li>HTML</li>
+                <li>CSS (SASS)</li>
+                <li>JavaScript (Junior)</li>
+                <li>Version control: Git (remote service GitHub)</li>
+                <li>Figma</li>
+            </ul>
         </section>
-
-
         <section>
             <h2>Code example:</h2>
+            <pre>
+                function isPangram(string){
+                let arr=string.split(' ').join('').toLowerCase().split('').sort()
 
-            function isPangram(string){
-            let arr=string.split(' ').join('').toLowerCase().split('').sort()
+                arr=arr.filter(function(elem){
+                return /[a-zA-Z]/.test(elem)
+                })
 
-            arr=arr.filter(function(elem){
-            return /[a-zA-Z]/.test(elem)
-            })
+                let set = new Set(arr);
+                if(set.size==26){
+                return true;
+                }else return false;
+                }
+            </pre>
 
-            let set = new Set(arr);
-            if(set.size==26){
-            return true;
-            }else return false;
-            }
         </section>
-
         <section>
             <h2>Education:</h2>
 
@@ -74,31 +74,58 @@
 
         <section>
             <h2>Courses:</h2>
-
-            FreeCodeCamp/ freecodecamp.org/
-
-            Responsive Web Design
-            JavaScript Algorithms and Data Structures
-            Front End Development Libraries
-
-            HTML Academy
-
-            Interactive
-
-            Logitech/GeekBrains
-
-            intensive competition
-
-            JavaScript Manual on learn.javascript.ru (in progress)
+            <ol>
+                <li>
+                    FreeCodeCamp/ freecodecamp.org/
+                    <ul>
+                        <li> Responsive Web Design
+                        </li>
+                        <li>JavaScript Algorithms and Data Structures</li>
+                        <li>Front End Development Libraries</li>
+                    </ul>
+                </li>
+                <li>
+                    HTML Academy
+                    <ul>
+                        <li>Interactive tasks</li>
+                    </ul>
+                </li>
+                <li>
+                    GeekBrains
+                    <ul>
+                        <li>Logitech competition</li>
+                        <li>HTML&CSS testing
+                        </li>
+                        <li>JavaScript testing</li>
+                    </ul>
+                </li>
+            </ol>
         </section>
         <section>
             <h2>Experience:</h2>
-
-            For self-study, I made several landing pages,wrote some scripts
+            <h3>Education projects:</h3>
+            <ul>
+                <li>
+                    <h4><a href="">Logitech Mouse</a></h4>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <h4><a href="">Technomart</a></h4>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <h4><a href="">MovieBlog template</a></h4>
+                    <img src="" alt="">
+                </li>
+            </ul>
         </section>
 
-        <section>English A2+. I try to fill in the gaps. I hope to go to language practice in the near future.</section>
-        <h2>Languages:</h2>
+        <section>
+            <h2>Languages:</h2>
+            English A2+
+
+        </section>
+
 
 
     </main>
