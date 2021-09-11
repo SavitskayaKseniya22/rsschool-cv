@@ -32,4 +32,20 @@ function isPangram(string){
   }else return false;
 } 
 ```
-
+## Education:
++ Bachelor, Polzunov Altai State Technical University, Barnaul
+      Institute of Architecture and Design, Architect
+      
+   
+## Courses:
+ 1. FreeCodeCamp/ freecodecamp.org/
+ + Responsive Web Design
+ + JavaScript Algorithms and Data Structures
+ + Front End Development Libraries
+ 2. HTML Academy
+ + Interactive
+ 3. Logitech/GeekBrains
+ + intensive competition 
+ 4. JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
+## Experience:
+For self-study, I made several landing pages,wrote some scripts
