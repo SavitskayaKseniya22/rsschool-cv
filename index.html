@@ -3,158 +3,198 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Заголовок</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header>
-        <img src="" alt="">
-    </header>
-    <main>
+    <div class="container">
+        <header>
+            <img src="img/picProfile.jpg" alt="photo" width="330px">
+
+            <section>
+                <h1>Savitskaya Kseniya</h1>
+                <hr>
+                <p>Junior Front-end Developer</p>
+                <hr>
+                <p> I believe that
+                    a
+                    person
+                    needs to constantly be in development, learning new things, improving acquired skills. I have no
+                    commercial
+                    development experience, but I am able to maintain interest for a long time, I can compensate for
+                    the
+                    gaps in education with diligence and perseverance.</p>
+            </section>
+
+        </header>
+
+
+        <main>
+            <div class="first_col">
+
+
+                <section>
+                    <h2>Contact:</h2>
+                    <ul>
+                        <li>Location: <i>Saint-Petersburg, Russia</i></li>
+                        <li>Phone: <i>+7 9520056415</i></li>
+                        <li>E-mail: <i>savitskaya.kseniya.22@yandex.ru</i></li>
+                        <li>GitHub: <i>SavitskayaKseniya22</i></li>
+                        <li>Codewars: <i>SavitskayaKseniya22</i></li>
+                    </ul>
+                </section>
+
+
+
+                <section>
+                    <h2>Skills:</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS (SASS)</li>
+                        <li>JavaScript (Junior)</li>
+                        <li>Git (remote service GitHub)</li>
+                        <li>Figma</li>
+                    </ul>
+                </section>
+
+
+                <section>
+                    <h2>Education projects:</h2>
+
+                    <ul>
+                        <li>
+                            <h4>Logitech Mouse</h4><a href="https://savitskayakseniya22.github.io/Logi_mouse/"><img
+                                    src="img/LogitechFirstScreenPrev.png" alt="Logitech Mouse" width="300"
+                                    height="153"></a>
+
+                        </li>
+                        <li>
+                            <h4>Technomart</h4><a href="https://savitskayakseniya22.github.io/Technomart/"><img
+                                    src="img/TechnomartFirstScreenPrev.png" alt="Technomart" width="300"
+                                    height="153"></a>
+
+                        </li>
+                        <li>
+                            <h4>MovieBlog template</h4><a href="https://savitskayakseniya22.github.io/MovieBlog/"><img
+                                    src="img/BlogScreenMinPrev.png" alt="MovieBlog template" width="300"
+                                    height="153"></a>
+
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+
+
+            <div class="sec-col">
+                <section>
+                    <h2>Education:</h2>
+
+                    Bachelor,<br> Polzunov Altai State Technical University, <br> Institute of Architecture and
+                    Design,<br> Barnaul
+
+                </section>
+
+
+
+                <section>
+                    <h2>Courses:</h2>
+                    <ol>
+                        <li>
+                            FreeCodeCamp/ freecodecamp.org/
+                            <ul>
+                                <li> Responsive Web Design</li>
+                                <li>JavaScript Algorithms and Data Structures</li>
+                                <li>Front End Development Libraries</li>
+                            </ul>
+                        </li>
+                        <li>
+                            HTML Academy
+                            <ul>
+                                <li>Interactive tasks</li>
+                            </ul>
+                        </li>
+                        <li>
+                            GeekBrains
+                            <ul>
+                                <li>Logitech competition</li>
+                                <li>HTML&CSS testing</li>
+                                <li>JavaScript testing</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </section>
 
 
 
 
+                <section>
+                    <h2>Code example:</h2>
+                    <pre>
+function isPangram(string) {
+  let arr = string.split(" ")
+  .join("")
+  .toLowerCase()
+  .split("")
+  .sort();
 
+  arr = arr.filter(function (elem) {
+    return /[a-zA-Z]/.test(elem);
+  });
 
-        <section>
-            <h1>Savitskaya Kseniya</h1>
-            <p>Junior Front-end Developer</p>
-
-
-            <p> I believe that
-                a
-                person
-                needs to constantly be in development, learning new things, improving acquired skills. I have no
-                commercial
-                development experience, but I am able to maintain interest for a long time, I can compensate for the
-                gaps in
-                education with diligence and perseverance.</p>
-        </section>
-
-        <section>
-            <h2>My Contact Info:</h2>
-            <ul>
-                <li>Location: <i>Saint-Petersburg, Russia</i></li>
-                <li>Phone: <i>+7 9520056415</i></li>
-                <li>E-mail: <i>savitskaya.kseniya.22@yandex.ru</i></li>
-                <li>GitHub: <i>SavitskayaKseniya22</i></li>
-                <li>Codewars: <i>SavitskayaKseniya22</i></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Skills:</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS (SASS)</li>
-                <li>JavaScript (Junior)</li>
-                <li>Version control: Git (remote service GitHub)</li>
-                <li>Figma</li>
-            </ul>
-        </section>
-
-
-        <section>
-            <h2>Experience:</h2>
-            <h3>Education projects:</h3>
-            <ul>
-                <li>
-                    <h4><a href="">Logitech Mouse</a></h4>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <h4><a href="">Technomart</a></h4>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <h4><a href="">MovieBlog template</a></h4>
-                    <img src="" alt="">
-                </li>
-            </ul>
-        </section>
-
-
-
-        <section>
-            <h2>Code example:</h2>
-            <pre>
-                function isPangram(string){
-                let arr=string.split(' ').join('').toLowerCase().split('').sort()
-
-                arr=arr.filter(function(elem){
-                return /[a-zA-Z]/.test(elem)
-                })
-
-                let set = new Set(arr);
-                if(set.size==26){
-                return true;
-                }else return false;
-                }
+  let set = new Set(arr);
+  if (set.size == 26) {
+    return true;
+  } else return false;
+}
+                
             </pre>
 
-        </section>
-        <section>
-            <h2>Education:</h2>
+                </section>
 
-            Bachelor, Polzunov Altai State Technical University, Barnaul Institute of Architecture and Design, Architect
-        </section>
 
-        <section>
-            <h2>Courses:</h2>
-            <ol>
-                <li>
-                    FreeCodeCamp/ freecodecamp.org/
+
+
+                <section>
+                    <h2>Languages:</h2>
+                    English A2+
+
+                </section>
+
+
+
+                <section>
+                    <h2>Hobbies:</h2>
                     <ul>
-                        <li> Responsive Web Design
-                        </li>
-                        <li>JavaScript Algorithms and Data Structures</li>
-                        <li>Front End Development Libraries</li>
+                        <li>Cross stitching</li>
+                        <li>Gaming</li>
+                        <li>Painting</li>
                     </ul>
-                </li>
-                <li>
-                    HTML Academy
-                    <ul>
-                        <li>Interactive tasks</li>
-                    </ul>
-                </li>
-                <li>
-                    GeekBrains
-                    <ul>
-                        <li>Logitech competition</li>
-                        <li>HTML&CSS testing
-                        </li>
-                        <li>JavaScript testing</li>
-                    </ul>
-                </li>
-            </ol>
-        </section>
+                </section>
 
-
-        <section>
-            <h2>Languages:</h2>
-            English A2+
-
-        </section>
-        <section>
-            <h2>Hobbies:</h2>
-            <ul>
-                <li>Cross stitching</li>
-                <li>Gaming</li>
-                <li>Painting</li>
-            </ul>
-        </section>
+            </div>
 
 
 
-    </main>
 
 
 
-    <footer>
-        <img src="" alt="">
-    </footer>
+        </main>
 
 
+
+        <footer>
+            <img src="" alt="">
+        </footer>
+
+    </div>
 </body>
 
 </html>
