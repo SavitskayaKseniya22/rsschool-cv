@@ -1,0 +1,374 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+    padding: 0;
+    margin: 0;
+}
+
+fieldset,
+img,
+abbr {
+    border: 0;
+}
+
+
+
+
+
+caption,
+th {
+    text-align: left;
+}
+
+q:before,
+q:after {
+    content: "";
+}
+
+a,
+ins {
+    text-decoration: none;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+
+
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 25px;
+
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul li {
+    list-style-type: circle;
+    line-height: 1.5;
+    padding-left: 20px;
+}
+
+
+header {
+
+    background-color: #cdc99f77;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    flex-shrink: 0;
+
+}
+
+header>* {
+    flex-shrink: 0;
+}
+
+header>img {
+    margin-left: -25px;
+
+}
+
+header section {
+    width: 580px;
+}
+
+h1 {
+    display: block;
+    line-height: 60px;
+    font-size: 45px;
+    background-color: #f4988a;
+    position: relative;
+    left: -55px;
+    padding-left: 10px;
+    width: 635px
+}
+
+h2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #cdc99f77;
+    position: relative;
+    line-height: 35px;
+    left: -40px;
+    margin: 25px 0;
+    padding: 0 15px;
+    width: calc(100% + 40px);
+    border-top: 2px solid #f4988a;
+    border-right: 2px solid #f4988a;
+}
+
+h4 {
+    display: block;
+    background-color: #cdc99f48;
+    line-height: 25px;
+    margin: 25px 0;
+    padding: 0 10px;
+    width: 100%;
+}
+
+
+hr {
+    border: none;
+    background-color: #f4988a;
+    height: 1px;
+}
+
+nav ul {
+    background-color: #f4988a;
+
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.navigation li {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navigation li a {
+    display: block;
+    line-height: 50px;
+
+}
+
+.navigation li a:hover {
+    background-color: #f07b69;
+}
+
+.navigation li a:active {
+    background-color: #f8563d;
+}
+
+
+
+footer {
+    background-color: #f4988a;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 25px auto;
+}
+
+main>* {
+
+    padding: 0 25px 25px;
+    background-color: #f4d7a033;
+    flex-shrink: 0;
+
+}
+
+.first_col {
+    width: 550px;
+}
+
+.sec-col {
+    width: 400px;
+
+}
+
+#education-projects li {
+    list-style: none;
+}
+
+@media (min-width: 720px) and (max-width: 1023px) {
+
+
+    .container {
+        width: 720px;
+        padding: 15px;
+
+    }
+
+
+    ul li {
+
+        padding-left: 10px;
+    }
+
+    header {
+
+        padding: 35px;
+        flex-direction: column;
+
+    }
+
+
+    header>img {
+        margin-bottom: 25px;
+
+    }
+
+    header section {
+        width: 100%;
+    }
+
+
+    h1 {
+        left: -50px;
+        width: 670px
+    }
+
+
+
+    main {
+
+        flex-wrap: wrap;
+    }
+
+    main>* {
+
+        padding: 0 35px 35px;
+
+
+    }
+
+    .first_col {
+        width: 100%;
+    }
+
+    .sec-col {
+        width: 100%;
+
+    }
+
+
+}
+
+@media (max-width: 718px) {
+    .container {
+        width: 320px;
+        padding: 10px;
+
+    }
+
+
+
+
+    header {
+
+        padding: 20px 20px;
+        flex-direction: column;
+
+    }
+
+    img {
+        width: 100%;
+    }
+
+    header>img {
+        margin-bottom: 25px;
+        margin-left: 0;
+
+
+    }
+
+    header section {
+        width: 100%;
+
+    }
+
+
+
+    h1 {
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 50px;
+        font-size: 35px;
+        left: -30px;
+        padding-left: 10px;
+        width: 290px;
+    }
+
+
+
+
+
+    h2 {
+
+        left: -30px;
+        margin: 25px 0;
+        width: calc(100% + 30px);
+
+    }
+
+    h4 {
+
+        line-height: 25px;
+        margin: 15px 0;
+    }
+
+
+    main {
+
+        flex-wrap: wrap;
+    }
+
+    main>* {
+
+        padding: 0 20px 20px;
+
+
+    }
+
+    .first_col {
+        width: 100%;
+    }
+
+    .sec-col {
+        width: 100%;
+
+    }
+
+
+
+}
