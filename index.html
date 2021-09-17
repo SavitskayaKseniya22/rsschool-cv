@@ -21,6 +21,7 @@
     <script>
         hljs.initHighlightingOnLoad();
     </script>
+
 </head>
 
 <body>
@@ -44,69 +45,158 @@
             </section>
 
         </header>
-        <nav>
+        <nav class="hamburger-menu">
+
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
             <ul class="navigation">
-                <li><a href="#contacts"><b> Contacts:</b></a> </li>
-                <li><a href="#skills"><b>Skills:</b></a> </li>
-                <li><a href="#education-projects"><b>Education projects:</b></a> </li>
-                <li><a href="#education"><b>Education:</b></a> </li>
-                <li><a href="#courses"><b>Courses:</b></a> </li>
-                <li><a href="#code"><b>Code example:</b></a> </li>
-                <li><a href="#languages"><b>Languages:</b></a> </li>
-                <li><a href="#hobbies"><b>Hobbies:</b></a> </li>
+                <li>
+                    <a href="#contacts">
+                        <b> Contacts</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills">
+                        <b>Skills</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="#education-projects">
+                        <b>Education projects</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="#education">
+                        <b>Education</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="#courses">
+                        <b>Courses</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="#code">
+                        <b>Code example</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="#languages">
+                        <b>Languages</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="#hobbies">
+                        <b>Hobbies</b>
+                    </a>
+                </li>
             </ul>
         </nav>
 
         <main>
-            <div class="first_col">
-
+            <div class="first-col">
 
                 <section id="contacts">
                     <h2>Contact:
-                        <span><i class="fa fa-address-book" aria-hidden="true"></i></span>
+                        <span>
+                            <i class="fa fa-address-book" aria-hidden="true"></i>
+                        </span>
                     </h2>
 
-
                     <ul>
-                        <li><b>Location: </b><i>Saint-Petersburg, Russia</i></li>
-                        <li><b>Phone: </b><i>+7 9520056415</i></li>
-                        <li><b>E-mail: </b> <i>savitskaya.kseniya.22@yandex.ru</i></li>
-                        <li><b>GitHub: </b><a
-                                href="https://github.com/SavitskayaKseniya22"><i>SavitskayaKseniya22</i></a> </li>
-                        <li><b>Codewars: </b> <i>SavitskayaKseniya22</i></li>
+                        <li>
+                            <b>Location: </b>
+                            <i>Saint-Petersburg, Russia</i></li>
+                        <li>
+                            <b>Phone: </b>
+                            <i>+7 9520056415</i></li>
+                        <li>
+                            <b>E-mail: </b>
+                            <i>savitskaya.kseniya.22@yandex.ru</i></li>
+                        <li>
+                            <b>GitHub: </b>
+                            <a href="https://github.com/SavitskayaKseniya22">
+                                <i>SavitskayaKseniya22</i>
+                            </a>
+                        </li>
+                        <li>
+                            <b>Codewars: </b>
+                            <i>SavitskayaKseniya22</i>
+                        </li>
                     </ul>
                 </section>
-
-
 
                 <section id="skills">
                     <h2>Skills:
-                        <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                        <span>
+                            <i class="fa fa-check-square" aria-hidden="true"></i>
+                        </span>
                     </h2>
 
-
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS (SASS)</li>
-                        <li>JavaScript (Junior)</li>
-                        <li>Git (remote service GitHub)</li>
-                        <li>Figma</li>
+                        <li>
+                            <span>HTML</span>
+                            <span>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+
+                        </li>
+
+                        <li>
+                            <span>CSS (SASS)</span>
+                            <span>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+
+                        </li>
+
+                        <li>
+                            <span>JavaScript (Junior)</span>
+                            <span>
+                                <i class="far fa-star"></i>
+                            </span>
+
+                        </li>
+
+                        <li>
+                            <span> Git (remote service GitHub)</span>
+                            <span>
+                                <i class="far fa-star"></i>
+                            </span>
+
+                        </li>
+
+                        <li>
+                            <span>Figma</span>
+                            <span>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </li>
                     </ul>
                 </section>
 
-
                 <section id="education-projects">
-                    <h2>Education projects:
-                        <span> <i class="fa fa-folder" aria-hidden="true"></i></span>
+                    <h2>
+                        <span>Education projects:</span>
+                        <span>
+                            <i class="fa fa-folder" aria-hidden="true"></i>
+                        </span>
                     </h2>
-
 
                     <ul>
                         <li>
                             <h4>Logitech Mouse</h4>
-                            <a href="https://savitskayakseniya22.github.io/Logi_mouse/"><img
-                                    src="img/LogitechFirstScreenPrev.png" alt="Logitech Mouse" width="300"
-                                    height="153"></a>
+                            <a href="https://savitskayakseniya22.github.io/Logi_mouse/">
+                                <img src="img/LogitechFirstScreenPrev.png" alt="Logitech Mouse" width="300"
+                                    height="153">
+                            </a>
 
                             <p>The project was carried out in a competition from Logitech + GeekBrains. Responsive
                                 advertising page for new Logitech product. </p>
@@ -116,9 +206,9 @@
                         </li>
                         <li>
                             <h4>Technomart</h4>
-                            <a href="https://savitskayakseniya22.github.io/Technomart/"><img
-                                    src="img/TechnomartFirstScreenPrev.png" alt="Technomart" width="300"
-                                    height="153"></a>
+                            <a href="https://savitskayakseniya22.github.io/Technomart/">
+                                <img src="img/TechnomartFirstScreenPrev.png" alt="Technomart" width="300" height="153">
+                            </a>
                             <p>Non-responsive landing page from email layout HTML Academy</p>
                             <hr>
                             <p>Technologies: HTML, SASS, JS</p>
@@ -126,9 +216,9 @@
                         </li>
                         <li>
                             <h4>MovieBlog template</h4>
-                            <a href="https://savitskayakseniya22.github.io/MovieBlog/"><img
-                                    src="img/BlogScreenMinPrev.png" alt="MovieBlog template" width="300"
-                                    height="153"></a>
+                            <a href="https://savitskayakseniya22.github.io/MovieBlog/">
+                                <img src="img/BlogScreenMinPrev.png" alt="MovieBlog template" width="300" height="153">
+                            </a>
                             <p>Responsive landing page template including a comment field</p>
                             <hr>
                             <p>Technologies: HTML, SASS, JS</p>
@@ -138,50 +228,46 @@
                 </section>
             </div>
 
-
-
             <div class="sec-col">
                 <section id="education">
-                    <h2>Education:
-                        <span><i class="fa fa-university" aria-hidden="true"></i></span>
+                    <h2>
+                        <span>Education:</span>
+                        <span>
+                            <i class="fa fa-university" aria-hidden="true"></i>
+                        </span>
                     </h2>
 
-
-
                     <p>
-                        Bachelor,<br> Polzunov Altai State Technical University, <br> Institute of Architecture and
-                        Design,<br> Barnaul 2016
+                        Bachelor,<br>
+                        Polzunov Altai State Technical University, <br>
+                        Institute of Architecture and Design,<br>
+                        Barnaul, 2016
                     </p>
-
-
 
                 </section>
 
-
-
                 <section id="courses">
-                    <h2>Courses:
-                        <span><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+                    <h2>
+                        <span>Courses:</span>
+                        <span>
+                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        </span>
                     </h2>
 
-
                     <ol>
-                        <li>
-                            FreeCodeCamp/ freecodecamp.org/
+                        <li> FreeCodeCamp/ freecodecamp.org/
                             <ul>
                                 <li> Responsive Web Design</li>
                                 <li>JavaScript Algorithms and Data Structures</li>
                                 <li>Front End Development Libraries</li>
                             </ul>
                         </li>
-                        <li>
-                            HTML Academy
+                        <li> HTML Academy
                             <ul>
                                 <li>Interactive tasks</li>
                             </ul>
                         </li>
-                        <li>
-                            GeekBrains
+                        <li> GeekBrains
                             <ul>
                                 <li>Logitech competition</li>
                                 <li>HTML&CSS testing</li>
@@ -191,17 +277,19 @@
                     </ol>
                 </section>
 
-
-
-
                 <section id="code">
-                    <h2>Code example:
-                        <span><i class="fa fa-code" aria-hidden="true"></i></span>
+                    <h2>
+                        <span>Code example:</span>
+                        <span>
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                        </span>
                     </h2>
 
+                    <h4>
+                        <span>Kata from Codewars:</span>
+                        <a href="https://www.codewars.com/kata/593b1909e68ff627c9000186">"Nickname Generator"</a>
 
-                    <h4><a href="https://www.codewars.com/kata/593b1909e68ff627c9000186">"Nickname Generator"</a>
-                        kata from Codewars</h4>
+                    </h4>
                     <p>
                         Write a function, NicknameGenerator that takes a string name as an argument and returns the
                         first 3 or 4 letters as a nickname. <br>
@@ -210,7 +298,8 @@
                         If the string is less than 4 characters, return "Error: Name too short."
                     </p>
                     <h4>Solution:</h4>
-                    <pre><code>
+                    <pre>
+                        <code>
 function nicknameGenerator(name) {
   let arr = name.split("");
   if (arr.length &lt; = 3) {
@@ -227,31 +316,31 @@ function nicknameGenerator(name) {
   }
 }                          
 
-                    </code>
+                        </code>
  
-            </pre>
+                    </pre>
 
                 </section>
-
-
-
 
                 <section id="languages">
 
-                    <h2>Languages:
-                        <span><i class="fa fa-language" aria-hidden="true"></i></span>
+                    <h2>
+                        <span>Languages:</span>
+                        <span>
+                            <i class="fa fa-language" aria-hidden="true"></i>
+                        </span>
                     </h2>
 
-
-                    English A2/B1
+                    <p>English A2/B1</p>
 
                 </section>
 
-
-
                 <section id="hobbies">
-                    <h2>Hobbies:
-                        <span><i class="fas fa-palette"></i></span>
+                    <h2>
+                        <span>Hobbies:</span>
+                        <span>
+                            <i class="fas fa-palette"></i>
+                        </span>
                     </h2>
                     <ul>
                         <li>Cross stitching</li>
@@ -262,13 +351,9 @@ function nicknameGenerator(name) {
 
             </div>
 
-
         </main>
 
-
-
         <footer>
-
 
             <a href="https://github.com/SavitskayaKseniya22"><img src="img/GitHub_Logo.png" alt="logoGitHub" width="73"
                     height="26"></a>
