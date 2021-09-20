@@ -72,6 +72,7 @@ a {
 
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #f4d7a028;
 }
 
 .container {
@@ -173,11 +174,11 @@ hr {
     padding: 0 14px;
 }
 
-.navigation a:hover {
+.navigation li a:hover {
     background-color: #f07b69;
 }
 
-.navigation a:active {
+.navigation li a:active {
     background-color: #f8563d;
 }
 
@@ -201,7 +202,7 @@ main {
 
 main>* {
     padding: 0 25px 25px;
-    background-color: #f4d7a033;
+    background-color: white;
     flex-shrink: 0;
 }
 
@@ -375,10 +376,11 @@ main>* {
         display: none;
         position: absolute;
         width: 320px;
-        height: 650px;
+        height: 725px;
         top: 0;
         left: 0;
         flex-direction: column;
+        justify-content: space-between;
     }
 
     .navigation a {
@@ -401,7 +403,9 @@ main>* {
     }
 
     #menu__toggle:checked~.navigation {
-        display: block;
+        display: flex;
         left: 0;
     }
+
+
 }
